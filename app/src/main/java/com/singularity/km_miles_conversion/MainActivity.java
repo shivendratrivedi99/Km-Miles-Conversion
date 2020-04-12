@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     convertKmToMiles.setVisibility(View.INVISIBLE);
                     convertMilesToKm.setVisibility(View.INVISIBLE);
 
-                    //Toast to display help
+
                     Toast.makeText(getApplicationContext(), "Just type in Miles or Kilometres and see the result", Toast.LENGTH_LONG).show();
 
                 } else {
