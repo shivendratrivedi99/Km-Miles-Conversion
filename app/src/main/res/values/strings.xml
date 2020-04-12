@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Km-Miles-Conversion</string>
+    <string name="miles">Miles</string>
+    <string name="kilometres">Kilometres</string>
+    <string name="convert_miles_to_km">Convert Miles To KM</string>
+    <string name="convert_km_to_miles">Convert KM to Miles</string>
+    <string name="enter_in_kilometres">Enter in Kilometres</string>
+    <string name="enter_in_miles">Enter in Miles</string>
+    <string name="auto_calculate">Auto Calculate Without Pressing Button</string>
+    <string name="just_type_in_miles_or_kilometres_and_see_the_result">Just type in Miles or Kilometres and see the result</string>
+</resources>

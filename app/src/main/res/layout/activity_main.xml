@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll_view"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/miles"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/miles_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+
+            android:layout_toEndOf="@id/textView"
+            android:ems="10"
+            android:hint="@string/enter_in_miles"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/kilometres"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/km_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/miles_field"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@id/textView2"
+            android:ems="10"
+            android:hint="@string/enter_in_kilometres"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+
+        <Switch
+            android:id="@+id/auto_calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/km_field"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="@string/auto_calculate" />
+
+        <Button
+            android:id="@+id/convert_miles_to_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/auto_calculate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/convert_miles_to_km" />
+
+        <Button
+            android:id="@+id/convert_km_to_miles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/convert_miles_to_km"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="@string/convert_km_to_miles" />
+
+    </RelativeLayout>
+
+</ScrollView>
